@@ -51,7 +51,7 @@ for (var i = 0; i < buttons.length; i++) {
         op1 = display.innerText;
         operator = buttonValue;
         display.innerText = "";
-    } else if (buttonValue >= '0' && buttonValue <= '9') {
+    } else if (buttonValue >= '0' && buttonValue <= '9' || buttonValue===".") {
         display.innerText += buttonValue;
     } else if (buttonValue === "AC") {
         AC_butt.innerText="AC";
