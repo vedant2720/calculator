@@ -1,0 +1,119 @@
+
+body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-top:50px;
+	font-weight:700px;
+}
+
+#calculator-conatainer{
+	display:flex;
+	flex-direction:column;
+	border:1px solid black;
+	border-radius:5px;
+	width:320px;
+	height:500px;
+	justify-content: space-between;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/*display part completed*/
+#display{
+	/*border:1px solid black;*/
+	width:100%;
+	height:20%;
+}
+
+/*opration table part*/
+#operation-table{
+	width:100%;
+	height:80%;
+}
+
+.struct{
+	display:flex;
+	width:100%;
+	height:20%;
+}
+
+.struct div{
+	width:25%;
+	height:100%;
+}
+
+
+.struct div button{
+	width:100%;
+	height:100%;
+	color:white;
+	font-weight:bold;
+	font-size: 1.3em;
+}
+
+#zero-button{
+	width:50%;
+}
+
+
+/*buttons colouring*/
+button{
+	border:1px solid black;
+}
+
+
+#first-row button{
+	background-color:#495057;
+}
+
+
+.struct button{
+	background-color:#adb5bd;
+}
+
+.struct .operator{
+	background-color:#fb8500;
+	border:1px solid black;
+}
+
+#division .operator{
+	background-color:#fb8500;
+}
+
+/*display setting*/
+
+#display{
+	display:flex;
+	align-items:flex-end;
+	justify-content: flex-end;
+}
+
+#display p{
+	margin-right:20px;
+	font-weight:bold;
+	font-size: 30px;
+}
+
+
+/* Your existing styles */
+
+@media screen and (max-width: 400px) 
+{
+
+    #calculator-conatainer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 5px;
+        width:200px;
+        height:400px;
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+}
+
+
+
+
+
+
