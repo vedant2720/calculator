@@ -110,6 +110,13 @@ button{
         justify-content: space-between;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     }
+
+	#display p {
+		margin-right: 20px;
+		font-weight: bold;
+		font-size: 15px;
+		display: inline-block;
+	}
 }
 
 
